@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fc06282-c153-43cd-b045-7fa750d5abe5" name="Changes" comment="edits">
+      <change beforePath="$PROJECT_DIR$/.idea/WEBAPP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WEBAPP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/StramBackEnd_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/StramBackEnd_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_07_24__10_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/add-game/add-game.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/add-film/add-film.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/add-game/add-game.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/add-film/add-film.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/add-game/add-game.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/add-film/add-film.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/add-game/add-game.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/add-film/add-film.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/add-review/add-review.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/add-review/add-review.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/admin-reports/admin-reports.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/admin-reports/admin-reports.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/card/card.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/card/card.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/guidelines/guidelines.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/guidelines/guidelines.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/guidelines/guidelines.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/guidelines/guidelines.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/header/header.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/review-toolbar/review-toolbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/review-toolbar/review-toolbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/slider/slider.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/slider/slider.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-detail/videogame-detail.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-detail/film-detail.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-detail/videogame-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-detail/film-detail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-detail/videogame-detail.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-detail/film-detail.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-detail/videogame-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-detail/film-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-lists/videogame-lists.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-lists/film-lists.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-lists/videogame-lists.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-lists/film-lists.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-lists/videogame-lists.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-lists/film-lists.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-lists/videogame-lists.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-lists/film-lists.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-review/videogame-review.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-review/film-review.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-review/videogame-review.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-review/film-review.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-review/videogame-review.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-review/film-review.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-review/videogame-reviews.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/film-review/film-reviews.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-toolbar/videogame-toolbar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/videogame-toolbar/film-toolbar.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-toolbar/videogame-toolbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/videogame-toolbar/film-toolbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-toolbar/videogame-toolbar.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/videogame-toolbar/film-toolbar.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/Components/videogame-toolbar/videogame-toolbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/Components/videogame-toolbar/film-toolbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/model/Message.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/model/Message.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/model/SingleGameInfo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/model/SingleFilmInfo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/model/Videogame.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/model/Film.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/services/home.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/services/home.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/services/log-out.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/services/log-out.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/services/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/services/login.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/services/user-lists.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/services/user-lists.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/services/videogame-data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/services/film-data.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/app/services/videogame-reviews.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/app/services/film-reviews.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/assets/images/loginBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/assets/images/loginBackground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stram/src/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Stram/src/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StramBackEnd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/commands/concreteCommands/addGame/CreateVideogame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/commands/concreteCommands/addGame/GetOptionsForAddNewVideogame.java" beforeDir="false" afterPath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/commands/concreteCommands/addFilm/GetOptionsForAddNewFilm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/controller/AddGameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/controller/VideogameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/controller/servlet/VideogamesServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/persistence/ErrorMessage/VideogameMessageDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/persistence/Model/Videogioco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/persistence/Model/VideogiocoAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/persistence/dao/VideogiocoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/persistence/dao/jdbc/VideogiocoDAOJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/java/it/unical/studenti/strambackend/persistence/dao/jdbc/VideogiocoProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/0-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/1-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/10-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/11-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/12-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/13-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/14-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/15-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/16-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/2-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/3-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/4-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/5-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/6-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/7-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/8-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/9-Copertina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/StramBackEnd/src/main/resources/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StramBackEnd/src/main/resources/templates/videogames.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;N3sci&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mario-bruno/Stram.git&quot;,
+    &quot;accountId&quot;: &quot;1f8adfe4-d2d5-400f-a056-76af6bd21202&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fuiqpEnmAjKj9zsxxLLQLaBkJ0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.StramBackEndApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/nesci/Desktop/NetflixWebApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.Angular CLI Server (Stram).executor": "Run",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "/Users/nesci/Desktop/NetflixWebApp/Stram/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Stram/src/assets/images" />
+      <recent name="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images" />
+      <recent name="$PROJECT_DIR$/StramBackEnd/src/main/resources/static/images/videogames" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server (Stram)">
+    <configuration name="Angular Application (Stram)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="StramBackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="StramBackEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="it.unical.studenti.strambackend.StramBackEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server (Stram)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/Stram/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fc06282-c153-43cd-b045-7fa750d5abe5" name="Changes" comment="" />
+      <created>1714657561977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714657561977</updated>
+      <workItem from="1714657572743" duration="15852000" />
+      <workItem from="1714998520551" duration="853000" />
+      <workItem from="1714999496252" duration="265000" />
+      <workItem from="1717665400383" duration="3252000" />
+      <workItem from="1718548394830" duration="6589000" />
+      <workItem from="1718789416801" duration="8144000" />
+      <workItem from="1719495735416" duration="11246000" />
+      <workItem from="1719570876024" duration="1148000" />
+      <workItem from="1719584908567" duration="15105000" />
+      <workItem from="1719669939190" duration="2537000" />
+      <workItem from="1719768303545" duration="386000" />
+      <workItem from="1719843187928" duration="973000" />
+      <workItem from="1719929461131" duration="287000" />
+      <workItem from="1719929760708" duration="322000" />
+      <workItem from="1719930464310" duration="105000" />
+      <workItem from="1719930583161" duration="391000" />
+      <workItem from="1748982231106" duration="2223000" />
+      <workItem from="1748987015064" duration="4764000" />
+      <workItem from="1749129980057" duration="16688000" />
+      <workItem from="1749207254356" duration="10000" />
+      <workItem from="1749207270066" duration="1000" />
+      <workItem from="1749207286360" duration="28000" />
+      <workItem from="1749207329805" duration="3000" />
+      <workItem from="1749207340324" duration="13371000" />
+      <workItem from="1749310311849" duration="2973000" />
+      <workItem from="1749325995408" duration="36000" />
+      <workItem from="1749327349402" duration="8550000" />
+      <workItem from="1749396528259" duration="110000" />
+      <workItem from="1749398289261" duration="751000" />
+      <workItem from="1749399213071" duration="228000" />
+    </task>
+    <task id="LOCAL-00001" summary="profile.component.ts updated">
+      <option name="closed" value="true" />
+      <created>1714671254052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714671254053</updated>
+    </task>
+    <task id="LOCAL-00002" summary="profile page form fixed">
+      <option name="closed" value="true" />
+      <created>1714999371799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714999371799</updated>
+    </task>
+    <task id="LOCAL-00003" summary=".">
+      <option name="closed" value="true" />
+      <created>1714999751834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714999751834</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Positions of Profile page elements fixed">
+      <option name="closed" value="true" />
+      <created>1717668690591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717668690592</updated>
+    </task>
+    <task id="LOCAL-00005" summary="some updates for list page">
+      <option name="closed" value="true" />
+      <created>1718808421265</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718808421266</updated>
+    </task>
+    <task id="LOCAL-00006" summary="logout button removed from profile page">
+      <option name="closed" value="true" />
+      <created>1719504945898</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719504945898</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Lists page works">
+      <option name="closed" value="true" />
+      <created>1719601446384</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719601446384</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Lists page fixed with actual db">
+      <option name="closed" value="true" />
+      <created>1719673391029</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719673391029</updated>
+    </task>
+    <task id="LOCAL-00009" summary="authGuard added to list page">
+      <option name="closed" value="true" />
+      <created>1719844149292</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719844149292</updated>
+    </task>
+    <task id="LOCAL-00010" summary="validation form">
+      <option name="closed" value="true" />
+      <created>1719945410213</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719945410213</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bug correction + spinner + button to the top in home">
+      <option name="closed" value="true" />
+      <created>1719954441772</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719954441772</updated>
+    </task>
+    <task id="LOCAL-00012" summary="home finished">
+      <option name="closed" value="true" />
+      <created>1719957081850</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719957081850</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add game">
+      <option name="closed" value="true" />
+      <created>1719957988426</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719957988426</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix">
+      <option name="closed" value="true" />
+      <created>1719992558865</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719992558865</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix">
+      <option name="closed" value="true" />
+      <created>1719992568795</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719992568795</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix">
+      <option name="closed" value="true" />
+      <created>1719992577874</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719992577874</updated>
+    </task>
+    <task id="LOCAL-00017" summary="img">
+      <option name="closed" value="true" />
+      <created>1719995667884</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719995667884</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="profile.component.ts updated" />
+    <MESSAGE value="profile page form fixed" />
+    <MESSAGE value="." />
+    <MESSAGE value="Positions of Profile page elements fixed" />
+    <MESSAGE value="some updates for list page" />
+    <MESSAGE value="logout button removed from profile page" />
+    <MESSAGE value="Lists page works" />
+    <MESSAGE value="Lists page fixed with actual db" />
+    <MESSAGE value="authGuard added to list page" />
+    <MESSAGE value="validation form" />
+    <MESSAGE value="bug correction + spinner + button to the top in home" />
+    <MESSAGE value="home finished" />
+    <MESSAGE value="add game" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="img" />
+    <MESSAGE value="edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="edits" />
+  </component>
+</project>

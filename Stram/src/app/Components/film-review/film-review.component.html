@@ -1,0 +1,22 @@
+<div class="review-list" *ngIf="ReviewList">
+    <h1 class="highlighted-text">Recensioni</h1>
+    <hr>
+ <section class="review" *ngFor="let review of ReviewList; let i=index">
+    <div class="review-hd"> 
+        <figure class="review-figure">
+            <img src="assets/images/user/avatar-{{i%6}}.svg">
+        </figure>
+        <span class="hd-data">{{review.username}}</span>
+        <p class="hd-data">
+            <span class="highlighted-text">{{review.likes}} </span>
+            <mat-icon class=" like-centered like-blue-icon">thumb_up</mat-icon>
+        </p>
+    </div>
+    <div class="review-bd">
+        <h1 class="highlighted-text" id="title">{{review.titolo}}</h1>
+        <app-rating [valutazione]="review.voto"></app-rating>
+        <p class="description">{{review.commento}}</p>
+    </div>
+    <app-review-toolbar *ngIf="User && ReviewLikeInfos && ReviewReportInfos" class="toolbar" [reviewInfo]="getSingleReviewInfo(review)" [review]="review"></app-review-toolbar>
+ </section>
+</div>

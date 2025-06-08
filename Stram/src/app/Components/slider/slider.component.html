@@ -1,0 +1,21 @@
+<h1>{{title}}</h1>
+<div class="arrow-and-slider">
+
+  <div class="arrow-sx" (click)="clickBtnArrowSX()">
+    <span class="material-symbols-outlined">arrow_back_ios</span>
+  </div>
+
+  <div class="cards-wrapper">
+    <div class="cards-container" #cardsContainer>
+      <app-card *ngFor="let game of games; let i = index"
+                [game]="game"
+                [rank]="i+1"
+                [link]="'http://localhost:8080/images/videogames/' + game.id + '.png'">
+      </app-card>
+    </div>
+  </div>
+
+  <div class="arrow-dx" (click)="clickBtnArrowDX()">
+    <span class="material-symbols-outlined">arrow_forward_ios</span>
+  </div>
+</div>

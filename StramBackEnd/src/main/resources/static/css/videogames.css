@@ -1,0 +1,64 @@
+
+.title{
+    margin: 20px 0 20px 0;
+    font-size: clamp(1em, 2vw, 2.5em);
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--systemGray2);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-auto-rows: 25vw;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.videogame-figure{
+    position: relative;
+    background-color: var(--background-header-color);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.videogame-figure:hover{
+    transform: scale(1.05);
+}
+
+.videogame-figure img{
+    display: flex;
+    border: 2px solid var(--systemGray3);
+    width: 98%;
+    height: 100%;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+#placeHolder{
+    display: none;
+    color: var(--systemGray2);
+    font-size: 1.8vw;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    z-index: 9999;
+}
+
+.icon{
+    height: 8vw;
+    width: 8vw;
+    padding-right: 5px;
+    color: var(--systemGray2);
+}
+
+.text{
+    padding: 15px;
+    color: var(--systemGray2);
+    display: block;
+}

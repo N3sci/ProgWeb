@@ -1,0 +1,106 @@
+
+.main-add-game-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: clamp(550px, 35vw, 2000px);
+
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border: 1px solid var(--systemGray4);
+  padding: 15px 25px;
+  margin: 50px 0 0 0;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  padding: 15px 0 0 0;
+}
+
+
+input {
+  justify-self: baseline;
+  width: 500px;
+  border-radius: 8px;
+}
+
+
+input:not(input[type="file"]) {
+  height: clamp(25px, 4vh, 30px);
+  font-size: clamp(16px, 2.5vw, 22px);
+}
+
+
+input[type="text"], input[type="number"] {
+  border: 1px solid whitesmoke;
+  padding: 0 0 0 0.5vw;
+
+  text-decoration-color: #f3f4f6;
+  background-color: var(--systemGray4);
+}
+
+
+select {
+  width: 25%;
+  justify-self: baseline;
+}
+
+select, input {
+  align-self: flex-start;
+  margin: 5px 0 0 1px;
+}
+
+
+label {
+  font-weight: bold;
+  font-size: clamp(20px, 2.5vw, 40px);
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.help-block p {
+  color: red;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.help-block p::before {
+  content: "❗";
+  margin-right: 5px;
+  color: red;
+}
+
+textArea {
+  background-color: var(--systemGray4);
+  border-color: var(--systemGray2);
+  height: clamp(75px, 15vw, 120px);
+  font-size: 14px;
+  resize: none;
+  border-radius: 8px;
+  padding: 0 0 0 0.5vw;
+}
+

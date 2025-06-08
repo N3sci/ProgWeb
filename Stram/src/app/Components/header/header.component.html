@@ -1,0 +1,37 @@
+<header>
+  <div style="margin-left: 30px; margin-top: 5px;">
+
+    <a href="http://localhost:4200"><img src="/assets/images/logo.png" class="logo"></a>
+
+  </div>
+  <div class="head">
+    <nav>
+      <ul>
+        <li><a routerLink="/">Home</a></li>
+        @if (localStorage.getItem("user")== null && !OperationLoading())
+        {
+          <li><a routerLink="/login">Login</a></li>
+          <li><a routerLink="/signup">Registrati</a></li>
+        } @else if(!OperationLoading()) {
+          <li><a routerLink="/profile">Profilo</a></li>
+        }
+        @if(!OperationLoading())
+          {
+          <li><a href="http://localhost:8080/videogames?token={{getToken()}}">Film</a></li>
+        }
+        @if (localStorage.getItem("user")!= null && !OperationLoading())
+          {
+            <li><a routerLink="/videogame-lists">Liste</a></li>
+          }
+        @if (localStorage.getItem("user")!= null && !OperationLoading())
+        {
+          <li><a routerLink="/logout" (click)="logout()">Logout</a></li>
+        }
+        @if (localStorage.getItem("user") && isUserAdmin() && !OperationLoading()){
+          <li><a routerLink="/reports-handling">Gestione Segnalazioni</a></li>
+          <li><a routerLink="/addGame">Aggiungi Videogioco</a></li>
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

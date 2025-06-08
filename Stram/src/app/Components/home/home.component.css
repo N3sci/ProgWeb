@@ -1,0 +1,141 @@
+.main-container {
+  width: 100%;
+  margin: 0 0;
+  display: flex;
+  flex-flow: column;
+}
+
+
+h1 {
+  padding: 25px 0 0 60px;
+  font-size: 4rem;
+  border-left: 5px cornflowerblue;
+  -webkit-border-bottom-left-radius: 0 8px;
+}
+
+
+.main-poster-container {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+}
+
+.WRAPPER-main-poster-container {
+  height: fit-content;
+  display: flex;
+  position: relative;
+}
+
+.main-poster-container img {
+  object-fit: cover;
+  object-position: 50% 25%;
+
+  height: 50vh;
+  width: 100%;
+  aspect-ratio: 16/9;
+
+  border-radius: 0px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.main-poster-container:hover {
+  animation: card-scale 0.35s linear 0.01s 1 forwards;
+}
+
+.main-poster-container button {
+  height: 50px;
+  width: fit-content;
+
+  font-size: 24px;
+
+  border: 2px solid whitesmoke;
+  border-radius: 8px;
+  background-color: rgba(0,0,0,0.3);
+  backdrop-filter: blur(6px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  z-index: 2;
+
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes anim-pulse {
+  0%, 100% {
+    transform: scale(100%);
+  }
+  50% {
+    transform: scale(110%);
+  }
+}
+
+
+
+
+@keyframes btn-anim-start {
+  from {
+    transform: scale(0%)
+  }
+  to {
+    transform: scale(75%);
+  }
+}
+
+@keyframes btn-anim-hover {
+  from {
+    transform: scale(75%);
+  }
+  to {
+    transform: scale(100%);
+  }
+}
+
+@keyframes btn-anim-active {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(125%);
+  }
+}
+
+@keyframes icon-fill-red {
+  from {
+
+  }
+  to {
+
+  }
+
+}
+
+@keyframes card-scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.03);
+  }
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}

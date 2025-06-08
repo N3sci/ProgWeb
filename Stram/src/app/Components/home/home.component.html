@@ -1,0 +1,19 @@
+<div class="main-container">
+
+
+  <!-- todo make it dynamic -->
+  <div class="main-poster-container" *ngIf="sliders.length > 0">
+    <div class="WRAPPER-main-poster-container">
+          <img src="http://localhost:8080/images/videogames/{{sliders[0][rand].id}}-Copertina.png">
+          <button routerLink="/videogame/{{sliders[0][rand].id}}">{{sliders[0][rand].titolo}}</button>
+      </div>
+  </div>
+  <div *ngIf="sliders != null">
+    <app-slider [title]="firstTitle" [games]="sliders[0]"></app-slider>
+    <app-slider *ngFor="let slider of sliders.slice(1); let i = index" [title]="slider[0].genere" [games]="slider"></app-slider>
+  </div>
+
+  <app-loading-spinner *ngIf="sliders==null"></app-loading-spinner>
+  <app-to-the-top-button></app-to-the-top-button>
+</div>
+

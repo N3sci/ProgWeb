@@ -1,0 +1,12 @@
+.review-toolbar{
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+    padding: 8px;
+    overflow: hidden;
+    
+}
+
+.review-toolbar .tlb-itms{
+    display: flex;
+    flex-direction: column;
+}
